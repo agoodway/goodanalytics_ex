@@ -19,7 +19,8 @@ defmodule GoodanalyticsEx.MixProject do
 
   defp deps do
     [
-      {:can_opener, git: "https://github.com/agoodway/can_opener.git"}
+      {:can_opener, git: "https://github.com/agoodway/can_opener.git"},
+      {:plug, "~> 1.0", only: :test}
     ]
   end
 end
